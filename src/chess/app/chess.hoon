@@ -1183,7 +1183,7 @@
       =/  archived-game  (get:arch-orm archive u.game-id)
       ?~  archived-game  ~
       ``[%chess-game-archived !>(u.archived-game)]
-    ``[%chess-game-active !>(game.u.active-game)]
+    ``[%chess-game-active !>(u.active-game)]
     ::
     ::  .^(noun %gx /=chess=/game/~1996.2.16..10.00.00..0000/moves/noun)
     ::  list moves of chess-game for browsing
